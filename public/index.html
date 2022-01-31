@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <title>Ali Michalsky</title>
+    <style>
+
+    </style>
+    <script type="text/javascript">
+        function sendMail() {
+            window.location.href = "mailto:contact@alexmichalsky.com";
+        }
+
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LTR3MG2DDB"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-LTR3MG2DDB');
+    </script>
+</head>
+<body>
+
+<model-viewer bounds="tight" src="scene-1.glb"
+              camera-controls camera-orbit="75deg 75deg 5.5m"
+              ar ar-modes="webxr scene-viewer quick-look"
+              camera-controls environment-image="neutral" poster="poster.webp" shadow-intensity="1" autoplay>
+
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png" alt="x">
+    </div>
+</model-viewer>
+<video autoplay muted loop id="myVideo">
+    <source src="vvvv.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+</video>
+<section id="example-element" tabindex="0">
+    <div class="face front">hello</div>
+    <div class="face back">my</div>
+    <div class="face right">name</div>
+    <div class="face left">is</div>
+    <div class="face top">pretty</div>
+    <div class="face bottom">cube</div>
+</section>
+
+
+<div class="block">
+    <div class="shape">
+        <div class="cube outer">
+            <div class="side left">holy</div>
+            <div class="side right">shit</div>
+            <div class="side top">i</div>
+            <div class="side bottom">am</div>
+            <div class="side front">warping</div>
+            <div class="side back">now</div>
+
+
+            <div class="cube">
+                <div class="side left">what</div>
+                <div class="side right">is</div>
+                <div class="side top">going</div>
+                <div class="side bottom">on</div>
+                <div class="side front">with</div>
+                <div class="side back">you</div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div id="runner">t̸̜́͌̑͘h̶̛͍̭̮͑̾̓̀̒̄̋͐̑i̵͖̦͙̺̥͔̽s̴̗͕̫̺̊̏̄͆͝͝ ̴̹̟̖̊͜î̶̧̪̬̹̟͐͐ͅş̴̛͈̠̝͔̏̋̓̿̒
+    ̷͔͍̮̰̔̔͝͝m̷̱̫̎͛͊̎̽͝e̴̟̠̠̞̺͎̯̲̰̮͛̈́̆̃̉̽̕͝ ̷̛͓̻͙1̵̼̖̝͇̐̍̽̃̿̔̽̕0̶̧͈̳̺̳̬̾̈́̂̐̾͐0̷̧̨̡̰̝̱̬͐̈́̔̒̀̕͘͘͠
+    ̷͖̙̦̲̐̒̉y̵̨̛͍̦͖̞̻̲͇̥͖͊͗e̷̳͆̌̇́̒͒̈́̀̕͜͝a̶̢̫̼̟̿̑̈́͐͗̇͘ŕ̶̻̳̞̳̘͈̖͚̲̓̅́͛̉́͆͜͝s̴̥͌̅
+    ̷̧̩͙̯̯͎̗̃́̉̇à̶̩̯͓̞͊̑́̌̓̒̚ǵ̵̛̬̳̯̀̐͂ǫ̵̗̹͖͎͓̝̗̟̊͊̈́̆̌̏̂̄̒̕ͅ<img src="ccccc.jpeg" alt="heya" width="481" height="500"
+                                                                   style="position: absolute; z-index: 123123">
+</div>
+
+<div id="floater">t̸̜́͌̑͘h̶̛͍̭̮͑̾̓̀̒̄̋͐̑i̵͖̦͙̺̥͔̽s̴̗͕̫̺̊̏̄͆͝͝ ̴̹̟̖̊͜î̶̧̪̬̹̟͐͐ͅş̴̛͈̠̝͔̏̋̓̿̒
+    ̷͔͍̮̰̔̔͝͝m̷̱̫̎͛͊̎̽͝e̴̟̠̠̞̺͎̯̲̰̮͛̈́̆̃̉̽̕͝ ̷̛͓̻͙1̵̼̖̝͇̐̍̽̃̿̔̽̕0̶̧͈̳̺̳̬̾̈́̂̐̾͐0̷̧̨̡̰̝̱̬͐̈́̔̒̀̕͘͘͠
+    ̷͖̙̦̲̐̒̉y̵̨̛͍̦͖̞̻̲͇̥͖͊͗e̷̳͆̌̇́̒͒̈́̀̕͜͝a̶̢̫̼̟̿̑̈́͐͗̇͘ŕ̶̻̳̞̳̘͈̖͚̲̓̅́͛̉́͆͜͝s̴̥͌̅
+    ̷̧̩͙̯̯͎̗̃́̉̇à̶̩̯͓̞͊̑́̌̓̒̚ǵ̵̛̬̳̯̀̐͂ǫ̵̗̹͖͎͓̝̗̟̊͊̈́̆̌̏̂̄̒̕ͅ<img src="ppppp.png" alt="ǵ̵̛̬̳̯̀̐͂" width="1024">
+</div>
+
+<iframe width="100%" height="105" scrolling="no" frameborder="no" allow="autoplay"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1102302526&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+<div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+    <a href="https://soundcloud.com/getschwifty" title="saschxa" target="_blank"
+       style="color: #cccccc; text-decoration: none;">saschxa</a> · <a
+        href="https://soundcloud.com/getschwifty/deutsche-post-punk-live" title="deutsche post punk live"
+        target="_blank" style="color: #cccccc; text-decoration: none;">deutsche post punk live</a></div>
+
+<div class="content">
+    <h1 class="header" style="float: right;">STAY
+        S̶̢̭͎̣̠͎̬̩̣̬͚̤̤̣͌̓͋̄̊̾̉͋̃̚U̵͚̬͓̺̗̠̲̮̦̟͚̗̣͌̿̽͗̾̂͆̕̕͜͝͝ͅŖ̸͇̼̮̪̤̤͖̗̼̺̻́̄̐̍̚R̴̢̛̤̪̗̦̦͔̜̯̒̇́̆̍̏̚̚͝͠ͅͅE̶̡̡̦̠̮̘͌̓̇̋͑̈́̓̆͗̆̏̋́͒͠A̷̧̘̦̞͚̤̦͎͍̱͕̯͑̓̽͗̄̏̅̀̅͜L̴̩̫̥̜̈́͂̍̊̽̈́̿͘͠</h1>
+    <p></p>
+    <button id="myBtn" onclick="sendMail()">email me</button>
+    <a href="https://www.facebook.com/alxmichalsky/" class="fa fa-facebook"></a>
+    <a href="https://www.instagram.com/myhousekyi/" class="fa fa-instagram"></a>
+    <a href="https://soundcloud.com/getschwifty" class="fa fa-soundcloud"></a>
+
+</div>
+
+</body>
+</html>
