@@ -7,9 +7,7 @@
 
     <link rel="stylesheet" href="stylesheets/style.css">
     <title>Ali Michalsky</title>
-    <style>
-
-    </style>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     <script type="text/javascript">
         function sendMail() {
             window.location.href = "mailto:contact@alexmichalsky.com";
@@ -32,21 +30,23 @@
 </head>
 <body>
 
-<model-viewer bounds="tight" src="Horse.glb"
-              camera-controls camera-orbit="75deg 75deg 5.5m"
-              ar ar-modes="webxr scene-viewer quick-look"
-              camera-controls environment-image="neutral" poster="poster.webp" shadow-intensity="1" autoplay>
+<div class="scene">
 
-    <div class="progress-bar hide" slot="progress-bar">
-        <div class="update-bar"></div>
-    </div>
-    <button slot="ar-button" id="ar-button">
-        View in your space
-    </button>
-    <div id="ar-prompt">
-        <img src="https://modelviewer.dev/shared-assets/icons/hand.png" alt="x">
-    </div>
-</model-viewer>
+    <model-viewer bounds="tight" src="Horse.glb"
+                  camera-controls camera-orbit="75deg 75deg 5.5m"
+                  ar ar-modes="webxr scene-viewer quick-look"
+                  camera-controls environment-image="neutral" poster="poster.webp" shadow-intensity="1" autoplay>
+
+        <div class="progress-bar hide" slot="progress-bar">
+            <div class="update-bar"></div>
+        </div>
+        <button slot="ar-button" id="ar-button">
+            View in your space
+        </button>
+
+    </model-viewer>
+</div>
+
 <video autoplay muted loop id="myVideo">
     <source src="vvvv.mp4" type="video/mp4">
     Your browser does not support HTML5 video.
@@ -99,7 +99,7 @@
     ̷̧̩͙̯̯͎̗̃́̉̇à̶̩̯͓̞͊̑́̌̓̒̚ǵ̵̛̬̳̯̀̐͂ǫ̵̗̹͖͎͓̝̗̟̊͊̈́̆̌̏̂̄̒̕ͅ<img src="ppppp.png" alt="ǵ̵̛̬̳̯̀̐͂" width="1024">
 </div>
 
-<iframe width="100%" height="20" scrolling="no" frameborder="no" allow="autoplay"
+<iframe width="100%" height="20" frameborder="no" allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1170413248&color=%23ff5500&inverse=false&auto_play=true&show_user=true"></iframe>
 <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
     <a href="https://soundcloud.com/getschwifty" title="saschxa" target="_blank"
